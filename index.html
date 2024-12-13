@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Legends Stats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Mobile Legends">
+            <h1>Mobile Legends: Bang Bang</h1>
+        </div>
+        <div class="login-btn">
+            <button>Login</button>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="filters">
+            <label for="time-period">Time Period:</label>
+            <select id="time-period">
+                <option value="30-days">Past 30 days</option>
+                <!-- Add more options here -->
+            </select>
+            <label for="rank">Rank:</label>
+            <select id="rank">
+                <option value="all">All</option>
+                <!-- Add more options here -->
+            </select>
+        </div>
+
+        <table class="stats-table">
+            <thead>
+                <tr>
+                    <th>Ranking</th>
+                    <th>Hero</th>
+                    <th>Pick Rate</th>
+                    <th>Win Rate</th>
+                    <th>Ban Rate</th>
+                    <th>Counter Hero</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Lolita</td>
+                    <td>0.19%</td>
+                    <td>58.05%</td>
+                    <td>1.44%</td>
+                    <td>
+                        <img src="hero1.png" alt="Hero 1">
+                        <img src="hero2.png" alt="Hero 2">
+                        <!-- Add more hero images -->
+                    </td>
+                </tr>
+                <!-- Add more rows -->
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>Update Time: 13-12-2024 21:14:58</p>
+    </footer>
+</body>
+</html>
